@@ -1,0 +1,9 @@
+# Steps
+1. Scope: identify what infrastrucute you need (requirements)
+2. Authoe: Write code that defines infrastructure
+3. Intialize: Install any necessary plugin/ pre requirsites
+Plan: Preview changes before implementing
+
+#Type of code
+Terraform is declarative, not procedural! This means anything written with Terraform is what you want the end result of the configuration to be.
+Terraform providers will automatically create or destrory resources in the correct order there is no need to wirte terraform code sequentially.
